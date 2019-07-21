@@ -1,4 +1,4 @@
-# Backbone.js
+# Backbone.js Notes
 
 [Documentation](https://backbonejs.org)
 
