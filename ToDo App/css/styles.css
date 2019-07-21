@@ -1,0 +1,81 @@
+body {
+  padding: 40px;
+  background: #f9f9f9;
+  color: grey;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body,
+p {
+  font-size: 16px;
+}
+
+#pageHeader {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: cornflowerblue;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#todoItems {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+#todoItems > li {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#todoItems > li > input {
+  color: red;
+}
+
+#todoItems > li > label {
+  width: 80%;
+  display: inline-block;
+}
+
+#todoItems > li > #delete {
+  /* font-family: "Courier New", Courier, monospace; */
+  float: right;
+  font-size: 14px;
+  background: salmon;
+  border: 0;
+  border-radius: 15px;
+  color: #fff;
+}
+
+#todoItems li.completed > label {
+  text-decoration: line-through;
+  font-style: italic;
+  color: rgba(151, 218, 148, 0.75);
+}
+
+#newTodoItem {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  color: cornflowerblue;
+}
+
+::placeholder {
+  color: cornflowerblue;
+  opacity: 0.3;
+  font-style: italic;
+}
+
+input:focus {
+  outline: ;
+}
+
+#todoItemsContainer {
+  width: 700px;
+  margin: 0 auto;
+}
